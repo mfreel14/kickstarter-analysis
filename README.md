@@ -3,7 +3,7 @@
 
 ## Overview of Project
 
-Louise is a promising playright who plans to start a crowdfunding campaign to help fund her play "Fever".  The play will have an estimated budget of $10,000.  Using the Kickstarter datset she would like to understand the relationship between launch dates and their funding goals.
+Louise is a promising playwright who plans to start a crowdfunding campaign to help fund her play "Fever".  The play will have an estimated budget of $10,000.  Using the Kickstarter dataset, she would like to understand the relationship between launch dates and their funding goals.
 
 ### Purpose
 
@@ -17,11 +17,11 @@ The data for analysis was used in the following excel file:
 
 Analysis of Outcomes Based on Launch Date
 
-The analysis of Outcomes Based on Launch dates involved creating a new column in our kickstarter dataset for "Years".  In the new column, the excel YEAR()function was used to grab the information from the date created conversion column.  
+The analysis of Outcomes Based on Launch dates involved creating a new column in our Kickstarter dataset for "Years".  In the new column, the excel YEAR()function was used to grab the information from the date created conversion column.  
 
 The next step was to create a pivot table showing Successful, Failed and Canceled campaigns by months through the years.  Using a filter in the "Parent Category" the data was made to show only "theater".  The campaign outcomes were sorted in descending order with "successful" being our first column.  
 
-A line chart was then created with our filtered data showing the number of campaings correlated with their success, failed and canceled rate.
+A line chart was then created with our filtered data showing the number of campaigns correlated with their success, failed and canceled rate.
 
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/691355/123500475-55a8a780-d60c-11eb-9408-04ef23de0874.png)
 
@@ -29,7 +29,7 @@ A line chart was then created with our filtered data showing the number of campa
 
 The start for analysis of Outcomes Based on Goals involved creating a new table with our goal ranges.  The dollar-amount ranges were used to group projects based on their goal amount.
 
-The COUNTIFS() was used to populate the number of successful, failed and canceled "plays" based on their goal amounts.  A percentage was then calculated for the number of succesful, failed and canceled plays.
+The COUNTIFS() was used to populate the number of successful, failed and canceled "plays" based on their goal amounts.  A percentage was then calculated for the number of successful, failed and canceled plays.
 
 A chart was created for this data to show the goal-amount ranges and the percentage of successful, failed and canceled projects.
 
@@ -37,7 +37,7 @@ A chart was created for this data to show the goal-amount ranges and the percent
 
 ### Challenges and Difficulties Encountered
 
-One limitation for the dataset is in the Outcomes Based on Goals.  The sample size, starting in the $10,000 - $14,999 begins decreasing significantly compared to projects ranged between <$1,000 and <$9,999.  Total projects less then $1,000 totaled 186, $1000 - $4,999 totaled 534 and projects between $5,0000 - $9,999 totaled 169.  Our sample size for Louise's target $10,000 - $14,999 totaled only 72 projects.  Having more projects and a more consistent amount of total projects launched throughout the ranges were present a more reliable picture.  
+One limitation for the dataset is in the Outcomes Based on Goals.  The sample size, starting in the $10,000 - $14,999 begins decreasing significantly compared to projects ranged between <$1,000 and <$9,999.  Total projects less than $1,000 totaled 186, $1000 - $4,999 totaled 534 and projects between $5,0000 - $9,999 totaled 169.  Our sample size for Louise's target $10,000 - $14,999 totaled only 72 projects.  Having more projects and a more consistent number of total projects launched throughout the ranges were present a more reliable picture.  
 
 Another challenge is the data used for decision making is also only being used from one crowdfunding platform.  Pulling the same data from other crowdfunding platforms may show that plays have more success launched on another platform such as Indiegogo.
 
@@ -45,7 +45,7 @@ Another challenge is the data used for decision making is also only being used f
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-1.  The average success rate for launching a campaign in kickstarter for plays is 61%.
+1.  The average success rate for launching a campaign in Kickstarter for plays is 61%.
 
 2.  The most successful month for campaigns was May with 111 successful campaigns and 67% of campaigns receving funding.  The least successful month for campaigns was December with 37 successful campaigns and only 49% receiving funding.
 
@@ -60,11 +60,11 @@ Another challenge is the data used for decision making is also only being used f
 
 - What are some limitations of this dataset?
 
-There are other factors that can influence the success of a kickstarter campaign.  The data doesn't account for accompanying marketing campaigns and the role it played in the success.  The data also doesn't further breakdown which category of plays is most successful.  It would be of interest to see if there's a higher success rate with a specific play and weather it's a drama, comedy or romance.
+There are other factors that can influence the success of a Kickstarter campaign.  The data doesn't account for accompanying marketing campaigns and the role it played in the success.  The data also doesn't further breakdown which category of plays is most successful.  It would be of interest to see if there's a higher success rate with a specific play and weather it's a drama, comedy or romance.
 
 - What are some other possible tables and/or graphs that we could create?
 
-Line Graph of year over year to see which years were the most successful.  This could help determine if the success rate of campaigns year over year is increasing or decreasing in relatation to the play category.
+Line Graph of year over year to see which years were the most successful.  This could help determine if the success rate of campaigns year over year is increasing or decreasing related to the play category.
 
 We could also create a boxplot for specific plays that were successfully funded in the US.  We could then see if certain plays are better funded then others.
 
