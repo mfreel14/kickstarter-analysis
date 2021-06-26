@@ -37,11 +37,9 @@ A chart was created for this data to show the goal-amount ranges and the percent
 
 ### Challenges and Difficulties Encountered
 
-There were some challenges regarding the specific dataset and the forumulas for extracting information.
-
 One limitation for the dataset is in the Outcomes Based on Goals.  The sample size, starting in the $10,000 - $14,999 begins decreasing significantly compared to projects ranged between <$1,000 and <$9,999.  Total projects less then $1,000 totaled 186, $1000 - $4,999 totaled 534 and projects between $5,0000 - $9,999 totaled 169.  Our sample size for Louise's target $10,000 - $14,999 totaled only 72 projects.  Having more projects and a more consistent amount of total projects launched throughout the ranges were present a more reliable picture.  
 
-The data used for decision making is also only being used from one platform.  Pulling the same data from other crowdfunding platforms may show that plays have more success launched on another platform such as Indiegogo.
+Another challenge is the data used for decision making is also only being used from one crowdfunding platform.  Pulling the same data from other crowdfunding platforms may show that plays have more success launched on another platform such as Indiegogo.
 
 ## Results
 
