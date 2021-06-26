@@ -58,7 +58,7 @@ A chart was created for this data to show the goal-amount ranges and the percent
 
 - What are some limitations of this dataset?
 
-There are other factors that can influence the success of a kickstarter campaign.  The data doesn't account for accompanying marketing campaigns and the role it played in the success.  The data also doesn't further breakdown which category of plays is most successful.  It would be of interest to see if there's a higher success rate with a specific play and weather it's a drama, comedy, romance etc.
+There are other factors that can influence the success of a kickstarter campaign.  The data doesn't account for accompanying marketing campaigns and the role it played in the success.  The data also doesn't further breakdown which category of plays is most successful.  It would be of interest to see if there's a higher success rate with a specific play and weather it's a drama, comedy or romance.
 
 - What are some other possible tables and/or graphs that we could create?
 
