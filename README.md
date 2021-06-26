@@ -37,7 +37,11 @@ A chart was created for this data to show the goal-amount ranges and the percent
 
 ### Challenges and Difficulties Encountered
 
+There were some challenges regarding the specific dataset and the forumulas for extracting information.
 
+One limitation for the dataset is in the Outcomes Based on Goals.  The sample size, starting in the $10,000 - $14,999 begins decreasing significantly compared to projects ranged between <$1,000 and <$9,999.  Total projects less then $1,000 totaled 186, $1000 - $4,999 totaled 534 and projects between $5,0000 - $9,999 totaled 169.  Our sample size for Louise's target $10,000 - $14,999 totaled only 72 projects.  Having more projects and a more consistent amount of total projects launched throughout the ranges were present a more reliable picture.  
+
+The data used for decision making is also only being used from one platform.  Pulling the same data from other crowdfunding platforms may show that plays have more success launched on another platform such as Indiegogo.
 
 ## Results
 
@@ -45,7 +49,7 @@ A chart was created for this data to show the goal-amount ranges and the percent
 
 1.  The average success rate for launching a campaign in kickstarter for plays is 61%.
 
-2.  The most successful month for campaigns was May with 111 successful campaigns and 67% of campaigns receving funding.  The least      successful month for campaigns was December with 37 successful campaigns and only 49% receiving funding.
+2.  The most successful month for campaigns was May with 111 successful campaigns and 67% of campaigns receving funding.  The least successful month for campaigns was December with 37 successful campaigns and only 49% receiving funding.
 
 <img width="602" alt="Theater_Outcomes_Percent" src="https://user-images.githubusercontent.com/691355/123500640-9654f080-d60d-11eb-8038-b8f1959ac843.png">
 
