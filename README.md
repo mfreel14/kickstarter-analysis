@@ -66,3 +66,5 @@ There are other factors that can influence the success of a kickstarter campaign
 
 Line Graph of year over year to see which years were the most successful.  This could help determine if the success rate of campaigns year over year is increasing or decreasing in relatation to the play category.
 
+We could also create a boxplot for specific plays that were successfully funded in the US.  We could then see if certain plays are better funded then others.
+
